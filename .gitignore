@@ -1,0 +1,14 @@
+﻿# Dependencies
+node_modules/
+.next/
+out/
+.vercel/
+.env*
+*.log
+.DS_Store
+*.tsbuildinfo
+# Source materials supplied by the client; optimized production copies live in public/images
+/imagenes/
+/*.pdf
+.vercel
+.env*
