@@ -8,7 +8,7 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat
 const special = Special_Elite({ subsets: ["latin"], weight: "400", variable: "--font-special", display: "swap" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://carol-en-verde.vercel.app"),
+  metadataBase: new URL("https://carolenverde.vercel.app"),
   title: { default: "Carol en Verde | Jardinería y huertos ecológicos en Mérida", template: "%s | Carol en Verde" },
   description: "Asesorías para crear huertos ecológicos y jardines naturales desde cero, mantenimiento y semillas locales en Ejido, Mérida, Venezuela.",
   openGraph: { type: "website", locale: "es_VE", siteName: "Carol en Verde", title: "Carol en Verde | Cultiva tu espacio verde", description: "Huertos ecológicos, jardines naturales y asesorías para principiantes en Mérida, Venezuela.", images: ["/images/carol-suculenta.webp"] },
