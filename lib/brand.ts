@@ -1,7 +1,7 @@
 export const brand = {
   name: "Carol en Verde",
   whatsapp: "56954263765",
-  location: "Ejido, Estado Mérida, Venezuela",
+  location: "Estado Mérida, Venezuela",
   instagram: "https://www.instagram.com/carolenverde/",
   tiktok: "https://www.tiktok.com/@carolenverde",
   whatsappLink(message: string) {
@@ -18,19 +18,19 @@ export type Service = {
 export const services: Service[] = [
   {
     slug: "mantenimiento-jardines-huertos", name: "Mantenimiento de jardines y huertos", eyebrow: "Cuidado en el tiempo",
-    summary: "Un acompañamiento atento a las necesidades reales de tu espacio y de cada estación.",
-    description: "Cada jardín o huerto tiene sus propias características, tiempos y necesidades. El trabajo se adapta a las condiciones de tu espacio y a la época del año, acompañando el proceso natural de cada planta.",
-    image: "/images/huerto-real.webp", imageAlt: "Huerto real en Mérida con bancales de cultivo", duration: "Bloques de 2 a 4 horas",
-    mode: "Visitas presenciales programadas. Frecuencia semanal, quincenal o mensual, a convenir.", location: "Ejido y zonas cercanas del Estado Mérida",
+    summary: "Un acompañamiento atento a las necesidades reales de tu jardín o huerto.",
+    description: "Cada jardín o huerto tiene sus propias características, tiempos y necesidades. El trabajo se adapta a las condiciones de tu espacio y a las necesidades de cada planta.",
+    image: "/images/carol-flores.webp", imageAlt: "Carol sonríe entre las flores de su jardín", duration: "Bloques de 2 a 4 horas",
+    mode: "Visitas presenciales programadas. Frecuencia semanal, quincenal o mensual, a convenir.", location: "Mérida y zonas cercanas",
     topics: ["Poda y cuidado general", "Deshierbe selectivo manual", "Abonado ecológico y mejora del suelo", "Revisión y ajuste del riego", "Prevención natural de plagas y enfermedades", "Limpieza de bancales o canteros", "Otras tareas según las necesidades del espacio"],
     cta: "Consultar mantenimiento", message: "Hola, Carol. Me interesa el servicio de mantenimiento de jardines y huertos. ¿Podrías contarme sobre disponibilidad?",
   },
   {
     slug: "huerto-desde-cero", name: "Huerto desde cero para principiantes", eyebrow: "Cultiva tus alimentos",
     summary: "Una asesoría personalizada para dar el primer paso, incluso si nunca has cultivado.",
-    description: "Analizamos tu espacio y buscamos soluciones prácticas para que inicies tu huerto ecológico desde cero. Antes del encuentro, Carol puede pedirte algunas fotos e información sobre la luz, el agua y el espacio disponible.",
+    description: "Analizamos tu espacio y buscamos soluciones prácticas para que inicies tu huerto ecológico desde cero. Si el servicio es online, Carol puede pedirte algunas fotos e información sobre la luz, el agua y el espacio disponible.",
     image: "/images/carol-cosecha.webp", imageAlt: "Carol con alimentos cosechados en su huerto", duration: "1 hora",
-    mode: "Presencial o por videollamada", location: "Presencial en Mérida o a distancia por videollamada",
+    mode: "Presencial o por videollamada", location: "Presencial en el estado Mérida o a distancia por videollamada",
     topics: ["Ubicación ideal y horas de sol", "Riego y preparación del suelo o sustrato", "Elección de semillas o plántulas para empezar", "Prevención natural de plagas", "Cultivo en macetas para espacios pequeños"],
     cta: "Quiero crear mi huerto", message: "Hola, Carol. Me interesa la asesoría de huerto desde cero y quisiera conocer la disponibilidad.",
   },
@@ -39,18 +39,18 @@ export const services: Service[] = [
     summary: "Ideas prácticas para crear un jardín bonito, resistente y en sintonía con su entorno.",
     description: "Un jardín natural se adapta a su entorno. En esta asesoría puedes explorar plantas nativas y resistentes, y organizar un espacio verde que puedas cuidar con confianza.",
     image: "/images/carol-flores.webp", imageAlt: "Carol entre plantas y flores de su jardín", duration: "1 hora",
-    mode: "Presencial o por videollamada", location: "Presencial en Mérida o a distancia por videollamada",
+    mode: "Presencial o por videollamada", location: "Presencial en el estado Mérida o a distancia por videollamada",
     topics: ["Plantas nativas y especies resistentes al clima", "Diseño y organización de canteros o jardineras", "Jardines de bajo mantenimiento", "Requerimientos de luz y riego eficiente", "Sustratos y abonos naturales", "Problemas específicos de tus plantas"],
     cta: "Quiero mejorar mi jardín", message: "Hola, Carol. Me interesa la asesoría de jardín natural para principiantes. ¿Podrías contarme sobre disponibilidad?",
   },
   {
-    slug: "cuidado-suculentas", name: "Cuidado de suculentas para principiantes", eyebrow: "Aprende a entenderlas",
+    slug: "cuidado-suculentas", name: "Asesoría de Plantas Suculentas", eyebrow: "Aprende a entenderlas",
     summary: "Luz, agua y sustrato según las condiciones reales de tus plantas y tu casa.",
     description: "Una sesión práctica para aprender a cuidar tus suculentas desde cero y entender qué necesitan según el clima de tu zona, la luz y el tipo de maceta.",
     image: "/images/asesoria-suculentas.webp", imageAlt: "Carol comparte consejos para cuidar suculentas", duration: "1 hora",
-    mode: "Presencial o por videollamada", location: "Presencial en Mérida o a distancia por videollamada",
+    mode: "Presencial o por videollamada", location: "Presencial en el estado Mérida o a distancia por videollamada",
     topics: ["Sustratos y drenaje según el clima", "Iluminación y cómo evitar la etiolación", "Riego según la temperatura y la maceta", "Multiplicación por hojas, esquejes e hijuelos", "Prevención de plagas y recuperación de plantas"],
-    cta: "Quiero cuidar mis suculentas", message: "Hola, Carol. Me interesa la asesoría de cuidado de suculentas para principiantes. ¿Podrías contarme sobre disponibilidad?",
+    cta: "Quiero cuidar mis suculentas", message: "Hola, Carol. Me interesa la asesoría de plantas suculentas. ¿Podrías contarme sobre disponibilidad?",
   },
 ];
 
