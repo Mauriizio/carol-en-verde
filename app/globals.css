@@ -151,3 +151,19 @@ body {font-size:17px;line-height:1.7}
  .service-card-simple .service-copy h3 {font-size:27px}
  .hero-actions .button {font-size:15px}
 }
+
+
+/* Revisión aprobada por Carol: historia sin leyendas flotantes. */
+.about-story {display:block;max-width:1020px;margin-left:auto;margin-right:auto}
+.about-prose {max-width:740px;margin:0 auto}
+.about-prose>p {font-size:18px;line-height:1.85;letter-spacing:0;color:var(--ink)}
+.about-prose>p:first-child {margin-top:0}
+.about-marker,.about-marker .hand-note {display:none!important}
+.service-card-simple .service-photo img,.service-simple-photo img {object-fit:contain!important;object-position:center center!important}
+@media(max-width:760px) {
+  .about-story {display:block;padding-top:40px}
+  .about-prose {max-width:100%}
+  .about-prose>p {font-size:18px;line-height:1.85}
+  .about-prose>p:first-child {margin-top:0}
+  .service-card-simple .service-photo img,.service-simple-photo img {object-fit:contain!important;object-position:center center!important}
+}
